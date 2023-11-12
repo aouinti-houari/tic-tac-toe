@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tic-Tac-Toe</h1>
+    </header>
+    <section>
+      <div>
+        <button class="nought" data-nought>0</button>
+        <button class="cross" data-cross>X</button>
+      </div>
+      <div>
+        <p data-draw>Draw: <span>0</span></p>
+        <p data-player-score>Player's score: <span>0</span></p>
+        <p data-computer-score>Computer's score: <span>0</span></p>
+      </div>
+    </section>
+    <main class="grid-container" data-grid-container></main>
+    <button class="restart" data-restart>Restart</button>
+    <footer>Houari Aouinti &copy; 2023</footer>
+    <div class="hide winner" data-winner></div>
+    <script src="script.js"></script>
+  </body>
+</html>
